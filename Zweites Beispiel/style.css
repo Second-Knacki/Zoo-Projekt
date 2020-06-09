@@ -1,0 +1,54 @@
+.setup{
+  background-color: #26A69A;
+}
+
+.image-container {
+  width: 2000px;
+  height: 500px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  border-color: #00695C;
+  border-style: solid;
+  border-width: inherit;
+
+}
+
+.frame {
+    border: 0;
+    -ms-transform: scale(0.25);
+    -moz-transform: scale(0.25);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.borderSet {
+  border-spacing: 0px;
+  border-radius: 1px;
+  border-color: #00695C;
+  border-style: solid;
+}
+
+.test {
+  width:1619px;
+  background:url(./img/Lageplan.svg) no-repeat cover;
+  height: 610px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
